@@ -13,3 +13,7 @@
 listResultF = `<p>${inputNumber.value} meters =  ${resultF.toFixed(3)} feet | ${inputNumber.value} feet =  ${resultM.toFixed(3)} meters</p>`
     ulF.innerHTML = listResultF
     ```
+
+* I have Polotsk State University degree on speciality "Modeling and computer design of radio electronic devices".
+
+* English language level B1.
