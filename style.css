@@ -103,3 +103,25 @@ body {
     text-align: center;
     cursor: pointer;
 }
+.container .right {
+    position: relative;
+    background: rgb(197, 219, 221);
+    padding: 1rem;
+}
+.info {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    letter-spacing: 1px;
+}
+.title1 {
+    color: black;
+    font-weight: 600; 
+}
+.experience {
+    margin-top: 3rem;
+    color: black;
+}
+.code-exemple {
+    margin-top: 3rem;
+    color: black;
+}
