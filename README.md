@@ -1,1 +1,1 @@
-https://Aleh0.github.io/rsschool-cv-html/index.html
+https://Aleh0.github.io/gh-pages/index.html
