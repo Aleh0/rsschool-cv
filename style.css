@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/CSS?family=poppins:200,300,400,500,600,700,800,900,&display=seamp");
+*
+{
+    font-family: "poppins", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 55rem; min-height: 58em;
+    background-color: antiquewhite;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1.1fr 2fr;
+    box-shadow: 0 3rem 3rem rgba(0,0,0,0.2);
+}
+.container .left {
+    position: relative;
+    background: rgba(46, 94, 116, 0.685);
+    padding: 1rem;
+}
+.info-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.info-text .img-box {
+    position: relative;
+    width: 200px; height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.info-text .img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+.info-text h2 {
+    color: rgba(245, 239, 239, 0.836);
+    font-size: 1.5em;
+    margin-top: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1 em;
+}
+.info-text h2 span {
+    font-size: 0.7em;
+    font-weight: 600;
+    line-height: .1em;
+}
+.contact {
+    padding-top: 2rem;
+}
+.title {
+    color: #000;
+    margin-bottom: 1rem;
+}
+.contact ul {
+    position: relative;
+}
+.contact ul li {
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+}
+.contact ul li .icon {
+    display: inline-block;
+    width: 1.3rem;
+    font-size: 1.2rem;
+    color: rgba(72, 255, 0, 0.658);
+}
+.contact ul li span {
+    color: black;
+   font-weight: 600;
+}
+.education {
+    position: relative;
+    padding-top: 2rem;
+    
+}
+.education ul h5 {
+    color: rgba(72, 255, 0, 0.808);
+    list-style: none;
+    font-weight: 600;
+}
+.education .speciality {
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container .right {
+    position: relative;
+    background: rgb(197, 219, 221);
+    padding: 1rem;
+}
+.info {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    letter-spacing: 1px;
+}
+.title1 {
+    color: black;
+    font-weight: 600; 
+}
+.experience {
+    margin-top: 3rem;
+    color: black;
+}
+.code-exemple {
+    margin-top: 3rem;
+    color: black;
+}
