@@ -1,1 +1,2 @@
-https://Aleh0.github.io/rsschool-cv/index.html
+https://Aleh0.github.io/rsschool-cv/
+
