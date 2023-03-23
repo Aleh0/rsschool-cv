@@ -63,29 +63,25 @@ body {
     line-height: .1em;
 }
 .contact {
+    position: relative;
     padding-top: 2rem;
 }
 .title {
     color: #000;
     margin-bottom: 1rem;
 }
-.contact ul {
-    position: relative;
-}
 .contact ul li {
     position: relative;
     list-style: none;
     cursor: pointer;
+    color: black;
+    font-weight: 600;
 }
-.contact ul li .icon {
+.fa-solid {
     display: inline-block;
     width: 1.3rem;
     font-size: 1.2rem;
-    color: rgba(72, 255, 0, 0.658);
-}
-.contact ul li span {
-    color: black;
-   font-weight: 600;
+    color: rgba(72, 255, 0, 0.658); 
 }
 .education {
     position: relative;
