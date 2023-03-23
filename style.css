@@ -92,7 +92,11 @@ body {
     padding-top: 2rem;
     
 }
-.education ul h5 {
+.education ul {
+    list-style: none;
+    line-height: 1.8rem;
+}
+.education ul .years {
     color: rgba(72, 255, 0, 0.808);
     list-style: none;
     font-weight: 600;
@@ -102,6 +106,7 @@ body {
     font-weight: 600;
     text-align: center;
     cursor: pointer;
+    line-height: 1.2rem;
 }
 
 .container .right {
